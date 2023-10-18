@@ -391,8 +391,8 @@ color: grey;
   /* footer */
   .foot1{
     border-top: 2px solid grey;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 118px;
+    margin-right: 60px;
     margin-top: 50px;
     height: 10px;
     display: flex;
@@ -401,11 +401,193 @@ color: grey;
     padding-top: 40px;
     font-size: 14px;
     color: grey;
-    padding-left: 40px;
+    padding-left: 0px;
     padding-right: 9px;
+    
   }
   .footp{
     padding-top: 40px;
     font-size: 14px;
     color: grey;
+  }
+  /* foot main  */
+  .footmain1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-right: 40px;
+  }
+  .foota h5{
+    padding-top: 60px;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+  .foota a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+
+  .footc a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+  .footc h5{
+    padding-top: 60px;
+    padding-left: 80px;
+    font-weight: 600;
+  
+  }
+  .footd a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+  .footd h5{
+    padding-top: 60px;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+
+  .foote a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+  .foote h5{
+    padding-top: 60px;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+  .footf a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+  .footf h5{
+    padding-top: 60px;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+
+    .footg h5{
+    padding-top: 15px;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+  .footg a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+
+  .footh h5{
+    padding-top: 15px;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+  .footh a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+
+  .footi h5{
+    padding-top: 19px;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+  .footi a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+  .footj h5{
+    padding-top: 19px;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+  .footj a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+  .footk h5{
+    padding-top: 19px;
+    padding-left: 80px;
+    font-weight: 600;
+  }
+  .footk a{
+    display: block;
+    padding-left: 80px;
+    font-size: 13px;
+    font-weight: 0;
+    color: grey;
+    margin-top: 6px;
+  }
+  .h5footer{
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 117px;
+    color: grey;
+    font-weight: 400;
+  }
+  .line{
+    border-top:2px solid grey;
+    margin-left: 117px;
+    margin-right: 60px;
+    margin-top: 5px;
+  }
+  .divlast h5{
+    font-size: 12px;
+    color: grey;
+    margin-right: 35px;
+  }
+  .divlast{
+    margin-top: 15px;
+    display: flex;
+    margin-left: 118px;
+  }
+  .divlast a{
+    font-size: 12px;
+    color: grey;
+    margin-left: 25px;
+  }
+  .divlast p{
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .footmain1 a:hover{
+  text-decoration: underline;
+  }
+  .divlast a:hover{
+    text-decoration: underline;
   }
