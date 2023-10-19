@@ -16,9 +16,7 @@
   font-size: 25px;
   margin-right: 5px;
 }
-.nav-options{
- 
-}
+
 .nav-options a{
  margin-left: 20px;
  font-size: 14px;
@@ -111,14 +109,20 @@ span{
  /* products */
  .products1{
   height: 120px;
-  background-color: white;
   display: flex;
+ }
+ .products1 div:hover{
+  
+    height:150px;
+    width:240px ;
+
  }
  .products1 div{
    height: 100%;
    width: 200px;
    margin-right: 10px;
    margin-left: 10px;
+   transition: 0.80s;
    
  }
  .Mac{
@@ -186,15 +190,32 @@ span{
   margin-top: 20px;
   font-size: 20px;
   font-weight: 700;
-  height: 400px;
+  height: 440px;
   display: flex;
-  justify-content: space-evenly;
+ /* justify-content:space-evenly;  */
+  overflow-x: auto;
+
 }
-.pic{
+.festival::-webkit-scrollbar{
+  width: 0;
+ }
+.festival::-webkit-scrollbar-track{
+  scroll-behavior: smooth;
+  width: 0;
+ }
+
+ .pic{
+  margin-left: 9px;
   height: 100%;
-  width: 290px;
-  border: 2px solid black;
+  min-width: 350px;
   border-radius: 15px;
+  transition: 0.55s;
+}
+
+.pic:hover{
+
+  margin-top:30px;
+  
 }
 .h2para1{
   padding-top: 10px;
@@ -247,6 +268,32 @@ span{
   background-size: cover;
   background-repeat: no-repeat;
 }
+.fp5{
+  font-size: 13px;
+  padding-top: 5px;
+  padding-left: 10px;
+  color:#d6ab00;
+}
+#pic5{
+  background-image: url('pic5.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.fp6{
+  font-size: 14px;
+  padding-top: 5px;
+  padding-left: 10px;
+  color:#66a8ce;
+}
+#pic6{
+  background-image: url('pic6.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
 /* latest arrivals */
 .h3{
   margin-top: 40px;
@@ -255,14 +302,24 @@ span{
 }
 .latest{
   margin-top:20px ;
-  height: 500px;
+  height: 530px;
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  overflow-x: auto;
+}
+.latest::-webkit-scrollbar{
+  width: 0;
+}
+.photo:hover{
+  width:375px;
+  height:540px ;
 }
 .photo{
+  margin-left: 10px;
   height: 100%;
-  width: 290px;
+  min-width: 370px;
   border-radius: 15px;
+  transition: 0.60s;
 }
 .p1text{
 padding-left: 20px;
@@ -323,6 +380,15 @@ color: grey;
     background-repeat: no-repeat;
     background-position: center;
   }
+  #photo5{
+    background-image: url('photo5.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  /* Features */
   .features{
     margin-top: 40px;
     height: 220px;
@@ -337,6 +403,11 @@ color: grey;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 0.60s;
+  }
+  .feature:hover{
+     width:290px;
+    height: 230px;
   }
   .feature i{
     font-size: 35px;
